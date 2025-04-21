@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Construtudo | Tudo para sua obra</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <div class="logo">Construtudo</div>
+    <nav>
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="admin.html">Admin</a></li>
+        <li><a href="login.html" id="login-link">Login</a></li>
+        <li><a href="#" id="carrinho-btn">Carrinho (<span id="cart-count">0</span>)</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="banner">
+    <h1>Bem-vindo à Construtudo</h1>
+    <p>Tudo que você precisa para sua construção, do básico ao acabamento.</p>
+  </section>
+
+  <section id="produtos" class="produtos">
+    <h2>Produtos em destaque</h2>
+    <div class="card-container" id="produtos-container">
+      <!-- Produtos carregados via JavaScript -->
+      
+    </div>
+  </section>
+
+  <section id="categorias" class="categorias">
+    <h2>Categorias</h2>
+    <ul>
+      <li>Cimentos</li>
+      <li>Areia e Brita</li>
+      <li>Madeiras</li>
+      <li>Ferramentas</li>
+      <li>Elétrica e Hidráulica</li>
+    </ul>
+  </section>
+
+  <section id="contato" class="contato">
+    <h2>Fale Conosco</h2>
+    <form>
+      <input type="text" placeholder="Seu nome" required />
+      <input type="email" placeholder="Seu e-mail" required />
+      <textarea placeholder="Sua mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Construtudo. Todos os direitos reservados.</p>
+	<p>E-mail para contato: construtudo2425@construtudo.com</p>
+  </footer>
+  
+  <!-- Botão flutuante do WhatsApp -->
+  <a href="https://wa.me/5599999999999" target="_blank" class="whatsapp-button">
+    💬 Atendimento
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>

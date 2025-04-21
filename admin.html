@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Admin - Construtudo</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <h2>Cadastro de Produtos</h2>
+  <form onsubmit="salvarProduto(event)">
+    <input type="text" id="nome" placeholder="Nome do produto" required />
+    <input type="number" id="preco" placeholder="Preço" step="0.01" required />
+    <input type="url" id="imagem" placeholder="URL da imagem" />
+    <button type="submit">Salvar</button>
+  </form>
+
+  <script>
+    if (!localStorage.getItem("usuarioLogado")) {
+      alert("Acesso negado. Faça login.");
+      window.location.href = "login.html";
+    }
+
+    function salvarProduto(e) {
+      e.preventDefault();
+      alert("Produto cadastrado (simulado).");
+      // Aqui você pode salvar em localStorage, Firebase ou backend real depois
+    }
+  </script>
+</body>
+</html>
