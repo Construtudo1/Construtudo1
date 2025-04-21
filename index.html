@@ -2,18 +2,16 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, max-scale=1.0"/>
   <title>Construtudo | Tudo para sua obra</title>
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
   <header>
-    <div class="logo">Construtudo</div>
     <nav>
       <ul>
         <li><a href="#">Início</a></li>
         <li><a href="#produtos">Produtos</a></li>
-        <li><a href="admin.html">Admin</a></li>
         <li><a href="login.html" id="login-link">Login</a></li>
         <li><a href="#" id="carrinho-btn">Carrinho (<span id="cart-count">0</span>)</a></li>
       </ul>
@@ -26,16 +24,8 @@
     <p>Tudo que você precisa para sua construção, do básico ao acabamento.</p>
 	
   </section>
-
-  <section id="produtos" class="produtos">
-    <h2>Produtos em destaque</h2>
-    <div class="card-container" id="produtos-container">
-      <!-- Produtos carregados via JavaScript -->
-    </div>
-  </section>
-
   <section id="categorias" class="categorias">
-    <h2>Categorias</h2>
+    <h2>Categorias</h2><br>
     <ul>
       <li>Cimentos</li>
       <li>Areia e Brita</li>
@@ -44,9 +34,17 @@
       <li>Elétrica e Hidráulica</li>
     </ul>
   </section>
+  <section id="produtos" class="produtos">
+    <h2>Produtos em destaque</h2><br>
+    <div class="card-container" id="produtos-container">
+      <!-- Produtos carregados via JavaScript -->
+    </div>
+  </section>
+
+  
 
   <section id="contato" class="contato">
-    <h2>Fale Conosco</h2>
+    <h2>Fale Conosco</h2><br>
     <form>
       <input type="text" placeholder="Seu nome" required />
       <input type="email" placeholder="Seu e-mail" required />
