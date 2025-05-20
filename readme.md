@@ -1,6 +1,6 @@
 # 🏗️ Construtudo
 
-Bem-vindo ao site da **Construtudo**, uma loja virtual especializada em **materiais para construção civil**. Aqui você encontra cimento, areia, ferramentas, madeiras e tudo o que você precisa para sua obra!
+Bem-vindo ao site da **Construtudo**, uma loja virtual especializada em **materiais para construção civil**. Aqui você encontra cimento, areia, ferramentas, madeiras e tudo o que você precisa para sua obra
 
 ---
 
